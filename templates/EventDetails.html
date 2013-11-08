@@ -1,0 +1,104 @@
+<div style="padding-left: 20px; padding-right: 20px ">
+    <div ng-show="showImage">
+        <img data-ng-src="{{ event.imageUrl }}">
+    </div>
+    <button class="btn" ng-click="reload()">Reload Course</button>
+    <button class="btn" ng-click="eventNamesLists()">Fetch stuff from DB</button>
+    <div class="row">
+        <div class="span11">
+            <div ng-style="myStyle">
+                <h2 ng-bind-template="{{ event.name }} - {{ event.location.city  |
+uppercase }} -  {{ event.date }} ">  </h2>
+            </div>
+        </div>
+    </div>
+    <button class="btn" ng-hide="viewedContest" ng-click="saveCookie(event)">Save
+        Cookie</button>
+    <button class="btn" ng-show="viewedContest" ng-click="deleteCookie()">Remove
+        Cookie</button>
+    <button class="btn" ng-click="hitMe(2)">Get Another Event</button>
+
+    <select id="eventList"
+            ng-model="eventNameList"
+            ng-options="c.name for c in eventNamesLists"
+            ng-change="selectedEvent(eventNameList.name)">
+    </select>
+
+    <div ng-bind-html-unsafe="snippet">some title</div>
+    <div ng-bind-html="snippet">some title</div>
+
+    <h2 ng-show="boolValue">Show This</h2>
+    <h2 ng-hide="boolValue">Hide This</h2>
+    <div class="row">
+        <div class="span3">
+            <div><strong>DATE:</strong> {{ event.date }}</div>
+            <div><strong>TIME:</strong> {{ event.time }}</div>
+            <div><strong>PRICE:</strong> {{ event.price | currency }}</div>
+        </div>
+        <div class="span4">
+            <address>
+                <strong>Address:</strong><br/>
+                {{ event.location.address  }}   <br/>
+                {{ event.location.city }}, {{ event.location.kanton }}
+            </address>
+        </div>
+    </div>
+    <hr />
+    <h3 ng-class="myClass">Sessions</h3>
+    Order by:
+    <select ng-model="sortorder" class="input-small">
+        <option selected value="name">Name</option>
+        <option value="-upVoteCount">Counts</option>
+    </select>
+    Show:
+    <select ng-model="query.level" class="input-small">
+        <option selected value="">All</option>
+        <option selected value="Introductory">Introductory</option>
+        <option selected value="Intermediate">Intermediate</option>
+        <option selected value="Advanced">Advanced</option>
+    </select>
+    <ul class="thumbnails">
+        <li ng-hide="viewedContest" ng-repeat="session in event.sessions | orderBy:sortorder |filter:query">
+            <div class="row session">
+                <div class="span0 well votingWidget">
+                    <div class="votingButton" ng-click="upVoteSession(session)">
+                        <i class="icon-chevron-up"></i>
+                    </div>
+                    <div class="badge badge-inverse">
+                        <div> {{ session.upVoteCount }}</div>
+                    </div>
+                    <div class="votingButton" ng-click="downVoteSession(session)">
+                        <i class="icon-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="well span9">
+                    <div class="left">
+                        <button class="btn" ng-click="showName(session)">Show Name</button>
+                        <input type="text" ng-model=session.name>Change Name</input>
+                        <input type="number" ng-model=session.duration>Change Duration</input>
+                        <input type="text" ng-model=session.testProperty>Test Stuff</input>
+                    </div>
+                    <h4 class="well-title"> {{ session.name }}</h4>
+                    <h6 style="margin-top:-10px"> {{ session.creatorName }}</h6>
+                    <span> Duration: {{ session.duration | durations  }}</span><br/>
+                    <span>Level: {{ session.level }}</span>
+
+                    <p>{{ session.abstract }}</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    Show additional Courses:
+    <select ng-model="selectedValue" class="input-small">
+        <option selected value="1">1</option>
+        <option value="2">2</option>
+    </select>
+
+    <h3>Sessions from another scope</h3>
+    <ul class="thumbnails">
+        <li ng-repeat="name in extraData.data">
+            {{ name.name | json }}
+        </li>
+    </ul>
+</div>
+</div>

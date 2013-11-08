@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="eventsApp">
+<head>
+    <title nb-bind="Exercising Angular"> </title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+     <div class="container">
+         <div class="navbar">
+             <div class="navbar-inner">
+                 <ul class="nav">
+                     <li> <a href="#/newEvent">Create New Event</a>  </li>
+                     <li> <a href="#/events">Show Available Events</a> </li>
+                     <li> <a href="#/sampleDirective">sample directive stuff</a> </li>
+                 </ul>
+             </div>
+         </div>
+
+         <ng-view>  </ng-view>
+
+         WELCOME TO SPA APPLICATION
+
+
+     </div>
+
+
+
+ <!-- FURTHER CORRECTINO SHOULD BE MADE HERE
+     REQUIRE SHOULD BE USED IN HERE-->
+
+ <script src="lib/jquery-1.9.1.js"></script>
+ <script src="lib/underscore-min.js"></script>
+ <script src="lib/bootstrap.js"></script>
+ <script src="lib/angular/angular.js"></script>
+ <script src="lib/angular/angular-resource.js"></script>
+ <script src="lib/angular/angular-cookies.js"></script>
+ <script src="lib/angular/angular-sanitize.js"></script>
+ <script src="js/app.js"></script>
+ <script src="js/controllers/EventController.js"></script>
+ <script src="js/controllers/EditEventController.js"></script>
+ <script src="js/controllers/EventListController.js"></script>
+ <script src="js/controllers/sampleDirectiveController.js"></script>
+ <script src="js/directives/sampleDirective.js"></script>
+ <script src="js/services/cookieHandler.js"></script>
+ <script src="js/services/EventData.js"></script>
+ <script src="js/services/MainConnector.js"></script>
+ <script src="js/filters.js"></script>
+
+ </body>
+ </html>

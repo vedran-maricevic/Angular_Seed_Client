@@ -13,7 +13,7 @@
     <file path="/app.css" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1380884316542" ignored="false" />
     <file path="/angularserver.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383831688736" ignored="false" />
     <file path="C:/Development/BracketsAPILatest/di-brackets-/BracketsFeedProcessor/package.json" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1382342114073" ignored="false" />
-    <file path="/a.dummy" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383823355805" ignored="false" />
+    <file path="/a.dummy" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383919273273" ignored="false" />
     <file path="/web-server.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1382701561666" ignored="false" />
     <file path="/filters.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1382439337210" ignored="false" />
     <file path="/NewEvent.html" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383053041822" ignored="false" />
@@ -85,7 +85,12 @@
     <file path="/menuTemplate.html" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383900590845" ignored="false" />
     <file path="/mainMenu.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383902413780" ignored="false" />
     <file path="/eventListThumbsDir.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383903909413" ignored="false" />
-    <file path="/README.md" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383917700226" ignored="false" />
+    <file path="/README.md" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383919415772" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Server/ver 2/js/dbConnectors/getEvents.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383918501649" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Server/ver 2/scripts/angularserver.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383918673308" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Server/ver 2/README.md" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383919264193" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Server/ver 2/config/applicationMainConfig.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383918732989" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Server/ver 2/config/data_config.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383918764047" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,10 +128,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="55" selection-start="183" selection-end="183" vertical-scroll-proportion="0.24132492">
+            <state line="9" column="55" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="40" selection-start="940" selection-end="940" vertical-scroll-proportion="0.5899054">
               <folding />
             </state>
           </provider>
@@ -147,7 +161,6 @@
         <option value="$PROJECT_DIR$/js/directives/sampleDirective.js" />
         <option value="$PROJECT_DIR$/scripts/angularserver.js" />
         <option value="$PROJECT_DIR$/templates/EventDetails.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/filters.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/controllers/EditEventController.js" />
@@ -158,6 +171,7 @@
         <option value="$PROJECT_DIR$/js/services/cookieHandler.js" />
         <option value="$PROJECT_DIR$/js/services/EventData.js" />
         <option value="$PROJECT_DIR$/js/services/MainConnector.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -476,13 +490,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/controllers/EditEventController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/CookieStoreSampleController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="38" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
@@ -585,7 +592,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="55" selection-start="183" selection-end="183" vertical-scroll-proportion="0.24132492">
+        <state line="9" column="55" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="40" selection-start="940" selection-end="940" vertical-scroll-proportion="0.5899054">
           <folding />
         </state>
       </provider>

@@ -19,7 +19,9 @@ In order to have this SPA (Single Page Application) do anything useful, you have
 persistence.  Server behind this SPA is again Node.JS Express and MongoDB.
 And that is in another repository with its own instruction set.
 
-Please visit: TO DO: Add GIT URL here!!!
+
+Donwload Server project for this client.
+Please visit:  https://github.com/wexoni/Angular_Seed_Server.git
 
 
 1. This is client Angular application that is hosted with Node.Js (Express).

@@ -6,10 +6,6 @@
  * To change this template use File | Settings | File Templates.
  */
 
-
-
-
-          //this works, as it sends stuff to server
 eventsApp.factory('MainConnector', function($http, $q, $resource ) {
 
     //proper implementation of the resource, showing how to escape the values
@@ -83,8 +79,6 @@ eventsApp.factory('MainConnector', function($http, $q, $resource ) {
 
             var deferred = $q.defer();
 
-            //http://localhost:3000/Collections/Events
-
             console.log("Connection established. Commencing now.");
             $http.get('http://localhost:3000/Collections/Events').success(function(data) {
                 deferred.resolve(data);
@@ -97,9 +91,6 @@ eventsApp.factory('MainConnector', function($http, $q, $resource ) {
 
          //trying to do the same thing using $resource property
         getEvent: function (eventId) {
-
-             //This is correct way of escaping URL for parameter
-
 
         var deferred = $q.defer();
 
@@ -115,7 +106,5 @@ eventsApp.factory('MainConnector', function($http, $q, $resource ) {
 
         return deferred.promise;
        }
-
-
     };
 });

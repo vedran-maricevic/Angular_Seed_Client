@@ -88,17 +88,5 @@ uppercase }} -  {{ event.date }} ">  </h2>
             </div>
         </li>
     </ul>
-    Show additional Courses:
-    <select ng-model="selectedValue" class="input-small">
-        <option selected value="1">1</option>
-        <option value="2">2</option>
-    </select>
-
-    <h3>Sessions from another scope</h3>
-    <ul class="thumbnails">
-        <li ng-repeat="name in extraData.data">
-            {{ name.name | json }}
-        </li>
-    </ul>
 </div>
 </div>

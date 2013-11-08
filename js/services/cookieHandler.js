@@ -23,8 +23,6 @@ eventsApp.factory('cookieHandler', function($cookieStore ) {
                deleteCookieByName: function() {
                    console.log("Cookie removed. Contest should be visible now");
                    $cookieStore.remove('vedran');
-
                }
-
            };
 });

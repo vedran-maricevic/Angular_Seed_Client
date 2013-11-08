@@ -85,6 +85,7 @@
     <file path="/menuTemplate.html" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383900590845" ignored="false" />
     <file path="/mainMenu.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383902413780" ignored="false" />
     <file path="/eventListThumbsDir.js" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383903909413" ignored="false" />
+    <file path="/README.md" changelist="2730e84f-b54e-4355-bf87-b85e0fec13bd" time="1383917700226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,93 +105,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="342" selection-end="363" vertical-scroll-proportion="-1.9615384">
+            <state line="35" column="0" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menuTemplate.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/directives/menuTemplate.html">
+      <file leaf-file-name="filters.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/filters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="320" selection-end="320" vertical-scroll-proportion="-5.230769">
+            <state line="26" column="22" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventList.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/EventList.html">
+      <file leaf-file-name="services.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="171" selection-end="171" vertical-scroll-proportion="-3.9230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventListThumbs.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/directives/eventListThumbs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventListThumbsDir.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/directives/eventListThumbsDir.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="43" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/EventController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="14" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1383902085763" expanded="false" signature="914:927" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sampleDirective.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/directives/sampleDirective.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="146" selection-end="146" vertical-scroll-proportion="-5.8846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sampleDirective.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/directives/sampleDirective.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.18769716">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainMenu.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/directives/mainMenu.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="52" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+            <state line="9" column="55" selection-start="183" selection-end="183" vertical-scroll-proportion="0.24132492">
               <folding />
             </state>
           </provider>
@@ -206,22 +142,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/controllers/EventListController.js" />
-        <option value="$PROJECT_DIR$/js/services/EventData.js" />
-        <option value="$PROJECT_DIR$/js/services/MainConnector.js" />
-        <option value="$PROJECT_DIR$/EditProfile.html" />
-        <option value="$PROJECT_DIR$/scripts/angularserver.js" />
-        <option value="$PROJECT_DIR$/templates/EventDetails.html" />
-        <option value="$PROJECT_DIR$/templates/directives/menuTemplate.html" />
-        <option value="$PROJECT_DIR$/js/controllers/EventController.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/templates/directives/eventListThumbs.html" />
-        <option value="$PROJECT_DIR$/templates/EventList.html" />
-        <option value="$PROJECT_DIR$/js/directives/eventListThumbsDir.js" />
         <option value="$PROJECT_DIR$/js/directives/mainMenu.js" />
         <option value="$PROJECT_DIR$/templates/directives/sampleDirective.html" />
         <option value="$PROJECT_DIR$/js/directives/sampleDirective.js" />
+        <option value="$PROJECT_DIR$/scripts/angularserver.js" />
+        <option value="$PROJECT_DIR$/templates/EventDetails.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/js/filters.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/controllers/EditEventController.js" />
+        <option value="$PROJECT_DIR$/js/controllers/CookieStoreSampleController.js" />
+        <option value="$PROJECT_DIR$/js/controllers/EditProfileController.js" />
+        <option value="$PROJECT_DIR$/js/controllers/EventController.js" />
+        <option value="$PROJECT_DIR$/js/controllers/EventListController.js" />
+        <option value="$PROJECT_DIR$/js/services/cookieHandler.js" />
+        <option value="$PROJECT_DIR$/js/services/EventData.js" />
+        <option value="$PROJECT_DIR$/js/services/MainConnector.js" />
       </list>
     </option>
   </component>
@@ -300,11 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,6 +251,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-seed-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ver2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -526,72 +476,39 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/services/EventData.js">
+    <entry file="file://$PROJECT_DIR$/js/controllers/EditEventController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="586" selection-end="594" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/js/controllers/CookieStoreSampleController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="59" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+        <state line="19" column="38" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/EventController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1383918224172" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/EventListController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
+        <state line="13" column="81" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/MainConnector.js">
+    <entry file="file://$PROJECT_DIR$/js/controllers/sampleDirectiveController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/angularserver.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="17" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/EventDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="59" selection-end="144" vertical-scroll-proportion="-1.9917763">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directives/menuTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="320" selection-end="320" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="342" selection-end="363" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directives/eventListThumbs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/EventList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="171" selection-end="171" vertical-scroll-proportion="-3.9230769">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -603,39 +520,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/EventController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1383902085763" expanded="false" signature="914:927" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/directives/mainMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/directives/sampleDirective.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="146" selection-end="146" vertical-scroll-proportion="-5.8846154">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/directives/sampleDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+        <state line="13" column="26" selection-start="376" selection-end="376" vertical-scroll-proportion="0.34858045">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/js/controllers/EditProfileController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.18769716">
+        <state line="8" column="9" selection-start="275" selection-end="275" vertical-scroll-proportion="0.21451104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/EventData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="38" selection-start="1894" selection-end="1894" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/cookieHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="49" selection-start="834" selection-end="834" vertical-scroll-proportion="0.6435331">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/MainConnector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="38" selection-start="3018" selection-end="3018" vertical-scroll-proportion="0.22239748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/gravatarUrlBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="22" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="55" selection-start="183" selection-end="183" vertical-scroll-proportion="0.24132492">
           <folding />
         </state>
       </provider>

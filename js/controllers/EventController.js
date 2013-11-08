@@ -18,7 +18,7 @@ eventsApp.controller('EventController',
               $scope.getDataFromMongo = function() {
                         console.log("I am getting to EventController.")   ;
                   MainConnector.mainConnection();
-                //TO DO IMPLEMENT IT
+
               },
 
               $scope.viewedContest = false;  //Show or Hide the viewed content by user
@@ -34,9 +34,6 @@ eventsApp.controller('EventController',
               $scope.myClass = 'blue';
 
               $scope.pleasework = 1;
-
-
-              //Take the param from the url !!!!
 
               $scope.event = MainConnector.getEvent($routeParams.eventId)     //replace with eventData
                   .then (function(event) {
@@ -76,7 +73,7 @@ eventsApp.controller('EventController',
 
               },
 
-               $scope.selectedEvent = function(value) {
+              $scope.selectedEvent = function(value) {
                  //call to express to fetch selected entry
                  var result =  MainConnector.getSpecificEvent(value);
 
@@ -109,14 +106,6 @@ eventsApp.controller('EventController',
               $scope.downVoteSession = function(session){
                 session.upVoteCount--;
             };
-
-              $scope.extraData = {    //Scopes are objects that comunicate with views
-                  data:  [
-                      {
-                          name: 'Sarajevo'
-                      }
-                  ]
-            },
 
             $scope.showName = function (session) {
                 alert(session.name)

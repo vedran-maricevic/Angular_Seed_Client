@@ -3,20 +3,6 @@ eventsApp.factory('eventData', function ($resource, $q) {
 
     var testResource = $resource('http://localhost\\:3000/collections/Events/:id');
 
-    //app.get('/collections/:collectionName/:id', function(request, response) {
-
-
-/*
-    angular.module("port", ["ngResource"]).factory('Tracker', function($resource){
-        return $resource('http://198.61.201.6\\:8000/api/v1-dev/trackers');
-    }).run(function(Tracker){
-            Tracker.get();
-        });
-*/
-
-
-
-    ///collections/:collectionName/:id
 
     return {
         getEvent: function (eventId) {
@@ -34,7 +20,6 @@ eventsApp.factory('eventData', function ($resource, $q) {
             return deferred.promise;
         },
 
-            //In development
         getEventById: function (eventId) {
             var deferred = $q.defer();
 
@@ -50,9 +35,6 @@ eventsApp.factory('eventData', function ($resource, $q) {
 
             return deferred.promise;
         },
-
-
-
 
         saveEvent: function(event) {
             var deferred = $q.defer();
@@ -73,8 +55,6 @@ eventsApp.factory('eventData', function ($resource, $q) {
             console.log('-- getAllEvents accessed --') ;
             //return resource.query();
 
-              //$resource('http://example.com:8081\:8081');
-
             var resourceGetAll = $resource(':port/collections/:collectionName/', { port: ':3000'});
 
             return resourceGetAll.get({collectionName: 'Events' });
@@ -83,51 +63,3 @@ eventsApp.factory('eventData', function ($resource, $q) {
     };
 });
 
-/*
-
-var CreditCard = $resource('/user/:userId/card/:cardId',
-    {userId:123, cardId:'@id'}, {
-        charge: {method:'POST', params:{charge:true}}
-    });
-
-// We can retrieve a collection from the server
-var cards = CreditCard.query(function() {
-    // GET: /user/123/card
-    // server returns: [ {id:456, number:'1234', name:'Smith'} ];
-
-    var card = cards[0];
-    // each item is an instance of CreditCard
-    expect(card instanceof CreditCard).toEqual(true);
-    card.name = "J. Smith";
-    // non GET methods are mapped onto the instances
-    card.$save();
-// POST: /user/123/card/456 {id:456, number:'1234', name:'J. Smith'}
-// server returns: {id:456, number:'1234', name: 'J. Smith'};
-
-
-*/
-
-
-
-//THIS APPROACH WORKS AS WELL, HOWEVER IT USING NON IDEAL CALLBACKS!!!!
-/*
-eventsApp.factory('eventData', function ($http, $log) {
-
-          return {
-
-              getEvent: function(successcb) {
-
-                   $http({method: 'GET', url:'/data/event/1'}).
-                       success(function(data, status, headers, config) {
-                          console.log(data);
-                           successcb(data);
-                       }).
-                       error(function(data, status, headers, config) {
-                           $log.warn(data, status, headers, config)
-                       });
-
-     }
-  };
-});
-
-*/

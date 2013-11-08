@@ -3,7 +3,7 @@
 /* Filters */
 
 
-//filter is always designed as a function that returns a funciton
+//filter is always designed as a function that returns a function
 
 
    eventsApp.filter('durations', function() {
@@ -22,15 +22,5 @@
                      return "---"
              }
        }
-   })
+   });
 
-
-/*
-
-angular.module('myApp.filters', []).
-  filter('interpolate', ['version', function(version) {
-    return function(text) {
-      return String(text).replace(/\%VERSION\%/mg, version);
-    }
-  }]);
-*/

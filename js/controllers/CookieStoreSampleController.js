@@ -13,33 +13,27 @@ eventsApp.controller('CookieStoreSampleController',
           $scope.event = {
               id: 1,
               name: 'MyEvent'
-          }
+          };
 
            $scope.userDetails = {
 
                name: 'Vedran'
-           }
-
-
-
+           };
 
         $scope.saveEventToCookie = function (event) {
         $cookieStore.put('vedran', event)
         };
 
-
         $scope.getEventFromCookie = function () {
         console.log( $cookieStore.get('vedran'));
-        }
+        };
 
         $scope.removeEventCookie = function () {
             $cookieStore.remove('vedran');
-        }
-
+        };
 
         $scope.saveUserDetails = function () {
             $cookieStore.put('userDetails', userDetails)
-        }
-
+        };
 
     });
